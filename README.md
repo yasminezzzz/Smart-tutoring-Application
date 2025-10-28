@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -71,3 +72,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # Smart-tutoring-Application
 # Smart-tutoring-Application git init git add README.md git commit -m first commit git branch -M main git remote add origin https://github.com/yasminezzzz/Smart-tutoring-Application.git git push -u origin main
 # Smart-tutoring-Application
+=======
+# Smart-tutoring-Application
+>>>>>>> acd95d106cb1e00a028f35711e72c7c10234f836
