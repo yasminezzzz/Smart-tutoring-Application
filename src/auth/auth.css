@@ -1,0 +1,78 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('https://imgs.search.brave.com/1gf4eJpJr2BYRUqwD3rDyxRlGjTYlCgMC6zF9jE6YKc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wYXBl/ci5jby9ocy1mcy9o/dWJmcy9BSS1HZW5l/cmF0ZWQlMjBNZWRp/YS9JbWFnZXMvVGhl/JTIwaW1hZ2UlMjBk/ZXBpY3RzJTIwYSUy/MHZpYnJhbnQlMjBj/bGFzc3Jvb20lMjBm/aWxsZWQlMjB3aXRo/JTIwZGl2ZXJzZSUy/MHN0dWRlbnRzJTIw/YWN0aXZlbHklMjBl/bmdhZ2VkJTIwaW4l/MjBhJTIwdHV0b3Jp/bmclMjBzZXNzaW9u/JTIwVGhlJTIwcm9v/bSUyMGlzJTIwYnJp/Z2h0JTIwd2l0aCUy/MGNvbG9yZnVsJTIw/ZWR1Y2F0aW9uYWwl/MjBwb3N0ZXJzJTIw/YWRvcm5pbmclMjB0/aGUlMjB3YWxscyUy/MGFuZCUyMG5hdHVy/YWwlMjBsaWdodCUy/MHN0cmVhbWluZyUy/MGluJTIwdGhyb3Vn/aCUyMGxhcmdlJTIw/d2luZG93cyUyMElu/JTIwdGhlJTIwZm9y/ZWdyb3VuZCUyMGEt/MS5qcGVnP3dpZHRo/PTEwMDQmaGVpZ2h0/PTk3NiZuYW1lPVRo/ZSUyMGltYWdlJTIw/ZGVwaWN0cyUyMGEl/MjB2aWJyYW50JTIw/Y2xhc3Nyb29tJTIw/ZmlsbGVkJTIwd2l0/aCUyMGRpdmVyc2Ul/MjBzdHVkZW50cyUy/MGFjdGl2ZWx5JTIw/ZW5nYWdlZCUyMGlu/JTIwYSUyMHR1dG9y/aW5nJTIwc2Vzc2lv/biUyMFRoZSUyMHJv/b20lMjBpcyUyMGJy/aWdodCUyMHdpdGgl/MjBjb2xvcmZ1bCUy/MGVkdWNhdGlvbmFs/JTIwcG9zdGVycyUy/MGFkb3JuaW5nJTIw/dGhlJTIwd2FsbHMl/MjBhbmQlMjBuYXR1/cmFsJTIwbGlnaHQl/MjBzdHJlYW1pbmcl/MjBpbiUyMHRocm91/Z2glMjBsYXJnZSUy/MHdpbmRvd3MlMjBJ/biUyMHRoZSUyMGZv/cmVncm91bmQlMjBh/LTEuanBlZw') no-repeat center center fixed;
+  background-size: cover; /* Make sure image covers the entire screen */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+div {
+  background: rgba(255, 255, 255, 0.95); /* Slightly transparent card */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border-color: mediumpurple;
+  outline: none;
+  box-shadow: 0 0 8px rgba(102, 126, 234, 0.5);
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background: mediumpurple;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: pink;
+}
+
+.auth-footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.auth-footer a {
+  color: #667eea;
+  text-decoration: none;
+}
+
+.auth-footer a:hover {
+  text-decoration: underline;
+}
